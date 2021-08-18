@@ -14,10 +14,10 @@ function preload(){
 
 function setup(){
   
-  createCanvas(400,400);
+  createCanvas(windowWidth,windowHeight);
   
 // Moving background
-garden=createSprite(200,200);
+garden=createSprite(width/2,height/2);
 garden.addImage("garden",gardenImg);
   
 
